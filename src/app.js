@@ -1,76 +1,85 @@
 let products = [
     {
         "id": 1,
+        "image": "images/1eggs-faverol.jpg",
         "name": "Яйця інкубаційні Фавероль",
         "price": 60,
         "unit": "шт",
         "desc": "Кількість обмежена",
-        "image": "images/1eggs-faverol.jpg"
+        
     },
     {
        
         "id": 2,
+        "image": "images/2maran-eggs.jpg",
         "name": "Яйця інкубаційні Маран",
         "price": 60,
         "unit": "шт",
         "desc": "Кількість обмежена",
-        "image": "images/2maran-eggs.jpg"
+        
     },
     {
         "id": 4,
+         "image": "images/4uheilui.jpg",
         "name": "Яйця інкубаційні Ухейілюй",
         "price": 70,
         "unit": "шт",
         "desc": "Кількість обмежена",
-        "image": "images/4uheilui.jpg"
+       
     },
     {
        "id": 3,
+       "image": "images/3ameraukan.jpg",
         "name": "Яйця інкубаційні Амераукан",
         "price": 70,
         "unit": "шт",
         "desc": "Кількість обмежена",
-        "image": "images/3ameraukan.jpg"
+        
     },
     {
         "id": 5,
+        "image": "images/5quail-eggs.jpg",
         "name": "Яйця перепілки",
         "price": 5,
         "unit": "шт", 
         "desc": "В наявності",
-        "image": "images/5quail-eggs.jpg"
+        
     },
     {
         "id": 6,
+        "image": "images/6quail.jpg",
         "name": "М'ясо перепілки",
         "price": 250,
         "unit": "кг",
         "desc": "В наявності",
-        "image": "images/6quail.jpg"
+      
     },
     {
         "id": 7,
+        "image": "images/7chicken.jpg",
         "name": "М'ясо бойлера",
         "price": 0,
         "unit": "кг",
         "desc": "Очікується",
-        "image": "images/7chicken.jpg"
+        
     },
     {
         "id": 8,
+        "image": "images/8turk.jpg",
         "name": "М'ясо індика",
         "price": 0,
         "unit": "кг",
         "desc": "Очікується",
-        "image": "images/8turk.jpg"
+       
     },
     {
         "id": 9,
+        "image": "images/9duck.jpg",
         "name": "М'ясо вутки",
         "price": 0,
         "unit": "кг",
         "desc": "Очікується",
-        "image": "images/9duck.jpg"
+        
     }
  
 ];
