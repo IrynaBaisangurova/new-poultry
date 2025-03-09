@@ -1,0 +1,76 @@
+
+
+.section-counter {
+  padding: 56px;
+  background-color: var(--dark) ;
+  color: var(--lightgrey);
+  text-align:center;
+  
+}
+
+.counter-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 36px;
+}
+
+
+/***********/
+/* Counter */
+/***********/
+.highlight {
+   padding:20px 0;
+   font-weight:bold;
+   font-size:48px;
+}
+
+.milestone-counter {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.milestone-details {
+   font-size:18px;
+   color: var(--grey);
+}
+
+.counter-icon-color {
+  stroke: var(--lightgrey);
+}
+.count-symbol {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.add-span {
+  font-size: 36px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .section {
+    padding: 96px 0;
+  }
+  .counter-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 36px;
+    
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .counter-list {
+    gap: 56px;
+  }
+
+}

@@ -1,19 +1,66 @@
-<header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+<header> 
+  <a  href="./index.html" class="logo">фея<span class="logo-link">птахівництва</span></a>  
+  <input  type="checkbox" name="menu" id="menu">
+  <label  for="menu" class="menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <nav class="nav-menu">
+    <ul class="menu-list">
+      <li class="menu-items">
+        <a class="menu-link" href="./index.html">
+          Головна
+        </a>
+      </li>
+      <li class="menu-items">
+        <a class="menu-link" href="#mod">
+          Програма ПтахоCтарт 
+        </a>
+      </li> 
+      <li class="menu-items">
+        <a class="menu-link" href="#about">
+          Про мене
+        </a>
+      </li>
+      <li class="menu-items">
+        <a class="menu-link" href="#courses">
+          Курси
+        </a>
+      </li>
+      </li>
+      <li class="menu-items">
+        <a class="menu-link" href="./product.html">
+          Продукція
+        </a>
+      </li>
+      </li>       
+ 
+      <li class="menu-items">
+        <a class="menu-link" href="#reviews">
+          Відгуки
+        </a>
+      </li>
+      <li class="menu-items">
+        <a class="menu-link" href="#">
+          Контакти &bigtriangledown;
+        </a>
+        <ul class="menu-list-down">
+          <li class="menu-items-down">
+            <a class="menu-link-down" href="tel:+380639489739">+380 639 48 97 39</a>
+          </li>
+          <li class="menu-items-down">
+            <a class="menu-link-down" href="mailto:cherkashinatanya73@gmail.com">cherkashina <br> tanya73@gmail.com</a>
+          </li>
+          <li class="menu-items-down">
+            <a class="menu-link-down" href="https://t.me/feyaptahivnitstva" rel="noreferrer noopener" target="_blank">
+              <svg class="icons" width="24" height="24">
+                <use href="./img/icons.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </li>     
+    </ul>
+  </nav> 
 </header>

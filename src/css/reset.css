@@ -6,29 +6,34 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
-
 p:last-child {
   margin-bottom: 0;
 }
-
-ul {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol {
+  list-style-type: none;
+  text-align: center;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
-
-a {
-  color: currentColor;
-  text-decoration: none;
+address {
+  font-style: normal;
+  color: inherit;
 }
-
-button {
-  cursor: pointer;
-}
-
 img {
   display: block;
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
+}
+button {
+  font-family: inherit;
+  padding: 0;
+  border: none;
+  cursor: pointer;
 }
