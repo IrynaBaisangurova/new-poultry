@@ -19,6 +19,15 @@ let products = [
         
     },
     {
+        "id": 3,
+        "image": "images/3ameraukan.jpg",
+         "name": "Яйця інкубаційні Амераукан",
+         "price": 70,
+         "unit": "шт",
+         "desc": "Кількість обмежена",
+         
+     },
+    {
         "id": 4,
          "image": "images/4uheilui.jpg",
         "name": "Яйця інкубаційні Ухейілюй",
@@ -27,15 +36,7 @@ let products = [
         "desc": "Кількість обмежена",
        
     },
-    {
-       "id": 3,
-       "image": "images/3ameraukan.jpg",
-        "name": "Яйця інкубаційні Амераукан",
-        "price": 70,
-        "unit": "шт",
-        "desc": "Кількість обмежена",
-        
-    },
+
     {
         "id": 5,
         "image": "images/5quail-eggs.jpg",
