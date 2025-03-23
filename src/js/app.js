@@ -5,36 +5,9 @@ let products = [
         "name": "Яйця інкубаційні Фавероль",
         "price": 60,
         "unit": "шт",
-        "desc": "Кількість обмежена",
-        
-    },
-    {
-       
-        "id": 2,
-        "image": "./images/2maran-eggs.jpg",
-        "name": "Яйця інкубаційні Маран",
-        "price": 60,
-        "unit": "шт",
-        "desc": "Кількість обмежена",
-        
-    },
-    {
-        "id": 3,
-        "image": "./images/3ameraukan.jpg",
-         "name": "Яйця інкубаційні Амераукан",
-         "price": 70,
-         "unit": "шт",
-         "desc": "Кількість обмежена",
-         
-     },
-    {
-        "id": 4,
-         "image": "./images/4uheilui.jpg",
-        "name": "Яйця інкубаційні Ухейілюй",
-        "price": 70,
-        "unit": "шт",
-        "desc": "Кількість обмежена",
-       
+        "desc": "шт",
+        "desc": "Кількість обмежена"
+
     },
 
     {
@@ -42,9 +15,9 @@ let products = [
         "image": "./images/5quail-eggs.jpg",
         "name": "Яйця перепілки",
         "price": 5,
-        "unit": "шт", 
-        "desc": "В наявності",
-        
+        "unit": "шт",
+        "desc": "В наявності"
+
     },
     {
         "id": 6,
@@ -52,8 +25,8 @@ let products = [
         "name": "М'ясо перепілки",
         "price": 250,
         "unit": "кг",
-        "desc": "В наявності",
-      
+        "desc": "В наявності"
+
     },
     {
         "id": 7,
@@ -61,8 +34,8 @@ let products = [
         "name": "М'ясо бойлера",
         "price": 0,
         "unit": "кг",
-        "desc": "Очікується",
-        
+        "desc": "Очікується"
+
     },
     {
         "id": 8,
@@ -70,8 +43,8 @@ let products = [
         "name": "М'ясо індика",
         "price": 0,
         "unit": "кг",
-        "desc": "Очікується",
-       
+        "desc": "Очікується"
+
     },
     {
         "id": 9,
@@ -79,10 +52,10 @@ let products = [
         "name": "М'ясо вутки",
         "price": 0,
         "unit": "кг",
-        "desc": "Очікується",
-        
+        "desc": "Очікується"
+
     }
- 
+
 ];
 
 
@@ -108,7 +81,7 @@ close.addEventListener('click', function (){
 
 addDataToHTML(); // Викликаємо функцію для додавання товарів у список
 
-//show datas product in list 
+//show datas product in list
 function addDataToHTML(){
     let listProductHTML = document.querySelector('.listProduct');
     listProductHTML.innerHTML = '';
@@ -118,7 +91,7 @@ function addDataToHTML(){
         products.forEach(product => {
             let newProduct = document.createElement('div');
             newProduct.classList.add('item');
-            newProduct.innerHTML = 
+            newProduct.innerHTML =
             `<img src="${product.image}" alt="product name">
             <h2>${product.name}</h2>
             <div class="desc">${product.desc}</div>
@@ -149,7 +122,7 @@ checkCart();
 function addCart($idProduct){
     let productsCopy = JSON.parse(JSON.stringify(products));
     //// If this product is not in the cart
-    if(!listCart[$idProduct]) 
+    if(!listCart[$idProduct])
     {
         listCart[$idProduct] = productsCopy.filter(product => product.id == $idProduct)[0];
         listCart[$idProduct].quantity = 1;
@@ -177,7 +150,7 @@ function addCartToHTML(){
             if(product){
                 let newCart = document.createElement('div');
                 newCart.classList.add('item');
-                newCart.innerHTML = 
+                newCart.innerHTML =
                     `<img src="${product.image}">
                     <div class="content">
                         <div class="name">${product.name}</div>
@@ -208,7 +181,7 @@ function changeQuantity($idProduct, $type){
                 delete listCart[$idProduct];
             }
             break;
-    
+
         default:
             break;
     }
